@@ -1,0 +1,6 @@
+print(4 == 5)
+print(4 <= 6)
+print('a' < 'b')
+print('c' > 'd')
+print( 1 < 2 < 3 < 4)
+print(0 != 1)
