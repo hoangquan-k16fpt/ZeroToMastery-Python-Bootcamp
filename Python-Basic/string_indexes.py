@@ -1,0 +1,11 @@
+selfish = '123456789'
+print(selfish[0])
+print(selfish[0:2])
+print(selfish[2:5])
+print(selfish[0:])
+print(selfish)
+print(selfish[2:7:2])
+print(selfish[0::2])
+print(selfish[-2])
+print(selfish[::3])
+print(selfish[::-1])
