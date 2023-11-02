@@ -1,0 +1,18 @@
+class My_Generator:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+        self.current = self.first
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.current < self.last:
+            num = self.current
+            self.current += 1
+            return num
+        raise StopIteration
+    
+gen = My_Generator(2,10)
+for i in gen:
+    print(i)
