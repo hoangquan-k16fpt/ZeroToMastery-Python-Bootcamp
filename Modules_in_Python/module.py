@@ -1,8 +1,11 @@
-import utility 
-from utility import multiply as mlp
-from shopping import shopping_cart
+from utility import multiply, divide
+from shopping.shopping_cart import buy
 
-print(utility.divide(10,5))
-print(mlp(20,10))
+print(divide(10,5))
+print(multiply(20,10))
 
-print(shopping_cart.buy('tomatoes'))
+print(buy('tomatoes'))
+
+print(buy('apple'))
+
+print(max([1,5,4]))
